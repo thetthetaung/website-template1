@@ -12,6 +12,9 @@ font-family:Arial, Helvetica, sans-serif;
 margin:0px;
 padding:0px
  }
+ body{
+   background-color: #9f8181;
+ }
 
  /* Layout Format */
  /* Code by Phone Myat Hein @16.3.2023 - Start */
@@ -100,4 +103,14 @@ padding:0px
  .container .btn:hover {
    background-color: black;
    color: white;
+   
+   border:1px solid green;
+ }
+ .btn i{
+   font-size:20px;
+   color:rgb(39, 231, 119);
+ }
+ .btn i:hover{
+   font-size:20px;
+   color:rgb(249, 242, 242);
  }
